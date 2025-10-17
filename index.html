@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKIT SNYGG Linje Hemsida</title>
+    <title>Linje Hemsida</title>
     <style>
         body {
             background-color: #121212;
@@ -116,7 +116,6 @@
         </div>
     </div>
 
-    <!-- Modal -->
     <div id="imageModal" class="modal">
         <span class="close" onclick="closeModal()">&times;</span>
         <img class="modal-content" id="modalImage" src="" alt="Linje Bild">
@@ -135,7 +134,6 @@
             modal.style.display = 'none';
         }
 
-        // Stäng modal när man klickar utanför bilden
         window.onclick = function(event) {
             const modal = document.getElementById('imageModal');
             if (event.target == modal) {
